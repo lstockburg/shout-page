@@ -3,6 +3,6 @@ $(document).ready(function() {
     event.preventDefault();
     var someInput = $("input#person1").val();
 
-
+    $(".shout").text(someInput.toUpperCase());
   });
 });
